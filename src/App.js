@@ -20,7 +20,7 @@ const App = () => {
 						minWidth: "100%",
 						backgroundImage: "url(/bg.png)",
 						backgroundPosition: "center",
-						backgroundSize: "cover",
+						backgroundSize: "100%",
 						backgroundRepeat: "no-repeat",
 						height: "100vh",
 					}}
