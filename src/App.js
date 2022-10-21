@@ -46,7 +46,7 @@ const App = () => {
 								style={{
 									position: "absolute",
 									width: "100%",
-									bottom: "30%",
+									bottom: "20%",
 									display: "flex",
 									flex: 1,
 									justifyContent: "center",
