@@ -62,12 +62,16 @@ const App = () => {
 					</div>
 					<div
 						style={{
-							textAlign: "center",
-							cursor: "pointer",
+							display: "flex",
+							flex: 1,
+							alignItems: "center",
+							justifyContent: "center",
+							paddingTop: 10,
 						}}
-						onClick={handleClick}
 					>
-						ТАК!
+						<div className="button" onClick={handleClick}>
+							ТАК!
+						</div>
 					</div>
 				</>
 			)}
